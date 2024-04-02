@@ -12,7 +12,7 @@ Hello <span class="wave">👋</span>
 I'm **Rituraj**, a tech enthusiast who also likes to write future proof code.
 With my recent foray into blogging, I would like to share the knowledge I've accumulated.
 
-My fascination lies in the potential of Artificial Intelligence and its transformative impact across various domains. I'm particularly interested in exploring the development and implications of AGIs.
+My fascination lies in the potential of Artificial Intelligence and its transformative impact across various domains.
 
 I aspire to see functional programming paradigms gaining traction and becoming mainstream, driven by their elegance and efficiency.
 
