@@ -13,15 +13,15 @@ draft: false
 
 Nvidia CEO Jensen Huang recently made a controversial statement at the World Government Summit in Dubai, suggesting that the need for individuals to learn how to code is diminishing due to advancements in artificial intelligence. Huang argued that with AI taking over programming tasks, **it's no longer necessary for young people to learn computer science or programming.** Instead, he believes that the focus should shift towards developing expertise in fields like biology, education, manufacturing, and farming. Huang's perspective is that AI will make everyone a programmer, as it will replace the need for traditional programming languages with human language prompts, making coding accessible to everyone.
 
-Is coming from a reputable figure enough to justify such a statement?
+Should we just disregard what he said?
 
 ### Present Scenario
 
 <img align="right" width="200" src="https://images.unsplash.com/photo-1520563683082-7ef74b616a89" alt="AI" style="padding: 2%;">
 
-Currently, **trained models are marketed as AI,** though the original intent of AI was to augment or replace human intelligence more effectively. If that becomes a reality someday, then the statement about coding's demise gains weight, especially for those whose livelihoods depend on coding.
+Currently, **trained models are marketed as AI,** though the original intent of AI was to augment or replace human intelligence more effectively. If that becomes a reality someday, then the statement about coding's demise (not only) gains weight, especially for those whose livelihoods depend on coding.
 
-### A Historical Perspective
+### A Historical Lens
 
 The discourse on technological unemployment isn't new.
 
@@ -35,17 +35,17 @@ Over time, we've witnessed the gradual replacement of human physical labor, part
 
 Compton's perspective remains relevant today, especially in the context of contemporary fears surrounding Artificial Intelligence (AI) and automation, as it emphasizes the importance of understanding the broader economic impacts of technological change.
 
-### Vision: A Jobless Future
+### Envisioning a Jobless Future
 
 <img align="right" width="400" src="https://images.unsplash.com/photo-1512078718055-8ffaad296044" alt="Future" style="padding: 2%;">
 
 Imagine a future where:
+- Life is primarily about living to the fullest.
 - Jobs don't define one's status.
 - People aren't forced to work for survival.
-- Soldiers have choices beyond just "Do or Die."
-- Life is primarily about living to the fullest.
+- Soldiers have choices beyond just "Kill or Be Killed."
 
-However, we are still far from this vision. Until then, we'll likely adapt to changes as they come.
+However, we're not there yet. Until then, we'll adapt to changes as they unfold.
 
 ### The Real Problem: Slow Pace of Adaptation
 
@@ -61,8 +61,8 @@ By highlighting the real problem of the slow pace of adaptation, we underscore t
 
 ### Should We Still Learn to Code?
 
-The answer is yes. Even if coding ceases to be a profession in the future, preserving the ability to code remains crucial.
+Absolutely. Even if coding becomes less of a profession in the future, retaining the ability to code remains vital. 
 
-Many subjects in our academic curriculum aren't directly tied to specific professions, yet we still deem them essential. Coding, which has shaped our digital future, should be no exception.
+Just like many subjects in our academic curriculum aren't directly tied to specific professions but are still deemed essential, coding, which has shaped our digital future, should be no exception.
 
 *Ability will grant us a sense of control and independence in a dependent future.*
