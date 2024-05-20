@@ -12,9 +12,9 @@ Hello <span class="wave">👋</span>
 I'm **Rituraj**, a tech enthusiast who also likes to write future proof code.
 With my recent foray into blogging, I would like to share the knowledge I've accumulated.
 
-My fascination lies in the potential of Artificial Intelligence and its transformative impact across various domains.
+My fascination lies in the potential of Artificial Intelligence to liberate Man Kind.
 
-I aspire to see functional programming paradigms gaining traction and becoming mainstream, driven by their elegance and efficiency.
+I aspire to see functional programming gaining traction and becoming mainstream.
 
 I'm deeply enthusiastic about cutting-edge technologies such as WebAssembly, WebGPU, WebXR, and WebTransport, envisioning a future where the web experience transcends current boundaries and offers immersive, seamless interactions.
 
