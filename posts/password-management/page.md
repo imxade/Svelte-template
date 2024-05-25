@@ -38,6 +38,12 @@ Conversely, opting for "Sign in with Google" presents its own set of compelling 
 3. **Google Ecosystem**
   - For those deeply entrenched in Google's ecosystem, reliance on password managers may prove counterproductive, only serving to increase the attack surface.
 
+## A Better Option?
+
+Well, it exists but not adopted by many. 
+
+I'm talking about **SSO with Proton Mail**. Yeah, that's not a bluff and is possible via [SimpleLogin](https://simplelogin.io/developer/).
+
 ## Conclusion
 
 While password managers offer a more ostensibly private solution by decentralizing authentication, they introduce a litany of challenges and vulnerabilities. Conversely, "Sign in with Google" may boast enhanced security and convenience owing to its widespread adoption. However, the optimal choice hinges on individual preferences and priorities.
