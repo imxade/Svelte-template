@@ -1,5 +1,5 @@
 ---
-title: The Superiority of Junction Tables over Storing Multiple Elements in Rows for SQL Databases
+title: Junction Tables, Many to Many in SQL
 description: An exploration of the benefits of using junction tables over storing multiple elements in rows for managing many-to-many relationships in SQL databases.
 date: '2024-05-31'
 tags:
