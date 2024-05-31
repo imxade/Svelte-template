@@ -16,8 +16,39 @@ draft: false
 </script>
 
 <Mermaid height="200">
-flowchart TB
-  A & B --> C & D
+erDiagram
+    STUDENTS {'{'}
+        int StudentID
+        string StudentName
+        string CoursesTaken
+    {'}'}
+</Mermaid>
+
+<Mermaid height="200">
+erDiagram
+    STUDENTS &#123;
+        int StudentID
+        string StudentName
+        string CoursesTaken
+    &#125;
+</Mermaid>
+
+<Mermaid height="200">
+erDiagram
+    STUDENTS &lbrace; 
+        int StudentID
+        string StudentName
+        string CoursesTaken
+    &lbrace; 
+</Mermaid>
+
+<Mermaid height="200">
+erDiagram
+    STUDENTS &lcub;
+        int StudentID
+        string StudentName
+        string CoursesTaken
+    &rcub; 
 </Mermaid>
 
 In the realm of database design, the choice between employing junction tables and storing multiple elements in rows for managing many-to-many relationships is a critical one. This decision significantly impacts application performance, data integrity, scalability, and maintainability. Let's explore why junction tables are a superior choice and illustrate this with a practical example.
