@@ -79,7 +79,7 @@ Let's convert the inefficient schema into a normalized design using a junction t
 
 ### Efficient Schema with Junction Table
 
-<Mermaid height="300">
+<Mermaid height="200">
 erDiagram
     STUDENTS &#123;
         int StudentID
@@ -87,7 +87,7 @@ erDiagram
     &#125;
 </Mermaid>
 
-<Mermaid height="300">
+<Mermaid height="200">
 erDiagram
     COURSES &#123;
         int CourseID
@@ -95,7 +95,7 @@ erDiagram
     &#125;
 </Mermaid>
 
-<Mermaid height="300">
+<Mermaid height="200">
 erDiagram
     STUDENT_COURSES &#123;
         int StudentID
@@ -103,7 +103,7 @@ erDiagram
     &#125;
 </Mermaid>
 
-<Mermaid height="400">
+<Mermaid height="300">
 erDiagram
     STUDENTS ||--o&#123; STUDENT_COURSES: Enrolls
     COURSES ||--o&#123; STUDENT_COURSES: Offers
