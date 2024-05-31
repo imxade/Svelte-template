@@ -23,7 +23,7 @@
   let commentsSection: HTMLElement | null;
   let showScrollToTop = false;
 
-  mermaid.initialize({ theme: 'neutral', startOnLoad: false });
+  mermaid.initialize({ theme: 'dark', startOnLoad: false });
 
   onMount(() => {
     mermaidRendered.set(false);
