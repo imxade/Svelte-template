@@ -7,9 +7,18 @@ tags:
   - SQL
   - Data Integrity
   - Scalability
-image: https://www.svgrepo.com/show/195859/database.svg
+image: https://images.unsplash.com/photo-1500576992153-0271099def59
 draft: false
 ---
+
+<script>
+  import Mermaid from '$lib/components/markdown/mermaid.svelte';
+</script>
+
+<Mermaid height="200">
+flowchart TB
+  A & B --> C & D
+</Mermaid>
 
 In the realm of database design, the choice between employing junction tables and storing multiple elements in rows for managing many-to-many relationships is a critical one. This decision significantly impacts application performance, data integrity, scalability, and maintainability. Let's explore why junction tables are a superior choice and illustrate this with a practical example.
 
