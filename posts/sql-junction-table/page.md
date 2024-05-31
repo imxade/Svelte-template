@@ -46,13 +46,13 @@ Consider a schema where multiple elements are stored in rows. This example illus
 ### Inefficient Schema
 
 
-<Mermaid height="200">
+<Mermaid height="300">
 erDiagram
-    STUDENTS {'{'}; 
+    STUDENTS &#123;
         int StudentID
         string StudentName
         string CoursesTaken
-    {'}'}; 
+    &#125; 
 </Mermaid>
 
 In this schema, the `CoursesTaken` field might contain a comma-separated list of course IDs. This design poses several problems, including difficulty in querying specific courses and ensuring data integrity.
@@ -79,25 +79,34 @@ Let's convert the inefficient schema into a normalized design using a junction t
 
 ### Efficient Schema with Junction Table
 
-<Mermaid height="200">
+<Mermaid height="300">
 erDiagram
-    STUDENTS {'{'}; 
+    STUDENTS &#123;
         int StudentID
         string StudentName
-    {'}'}; 
+    &#125;
+</Mermaid>
 
-    COURSES {'{'}; 
+<Mermaid height="300">
+erDiagram
+    COURSES &#123;
         int CourseID
         string CourseName
-    {'}'}; 
+    &#125;
+</Mermaid>
 
-    STUDENT_COURSES {'{'}; 
+<Mermaid height="300">
+erDiagram
+    STUDENT_COURSES &#123;
         int StudentID
         int CourseID
-    {'}'}; 
+    &#125;
+</Mermaid>
 
-    STUDENTS ||--o{'{'}; STUDENT_COURSES: Enrolls
-    COURSES ||--o{'{'}; STUDENT_COURSES: Offers
+<Mermaid height="400">
+erDiagram
+    STUDENTS ||--o&#123; STUDENT_COURSES: Enrolls
+    COURSES ||--o&#123; STUDENT_COURSES: Offers
 </Mermaid>
 
 In this improved design:
