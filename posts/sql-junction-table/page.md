@@ -7,7 +7,7 @@ tags:
   - SQL
   - Data Integrity
   - Scalability
-image: https://images.unsplash.com/photo-1500576992153-0271099def59
+image: https://images.unsplash.com/photo-1639322537231-2f206e06af84
 draft: false
 ---
 
