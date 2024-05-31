@@ -15,42 +15,6 @@ draft: false
   import Mermaid from '$lib/components/markdown/mermaid.svelte';
 </script>
 
-<Mermaid height="200">
-erDiagram
-    STUDENTS {'{'}
-        int StudentID
-        string StudentName
-        string CoursesTaken
-    {'}'}
-</Mermaid>
-
-<Mermaid height="200">
-erDiagram
-    STUDENTS &#123;
-        int StudentID
-        string StudentName
-        string CoursesTaken
-    &#125;
-</Mermaid>
-
-<Mermaid height="200">
-erDiagram
-    STUDENTS &lbrace; 
-        int StudentID
-        string StudentName
-        string CoursesTaken
-    &lbrace; 
-</Mermaid>
-
-<Mermaid height="200">
-erDiagram
-    STUDENTS &lcub;
-        int StudentID
-        string StudentName
-        string CoursesTaken
-    &rcub; 
-</Mermaid>
-
 In the realm of database design, the choice between employing junction tables and storing multiple elements in rows for managing many-to-many relationships is a critical one. This decision significantly impacts application performance, data integrity, scalability, and maintainability. Let's explore why junction tables are a superior choice and illustrate this with a practical example.
 
 ## The Pitfalls of Storing Multiple Elements in Rows
@@ -81,14 +45,15 @@ Consider a schema where multiple elements are stored in rows. This example illus
 
 ### Inefficient Schema
 
-```mermaid
+
+<Mermaid height="200">
 erDiagram
-    STUDENTS {
+    STUDENTS {'{'}; 
         int StudentID
         string StudentName
         string CoursesTaken
-    }
-```
+    {'}'}; 
+</Mermaid>
 
 In this schema, the `CoursesTaken` field might contain a comma-separated list of course IDs. This design poses several problems, including difficulty in querying specific courses and ensuring data integrity.
 
@@ -114,26 +79,26 @@ Let's convert the inefficient schema into a normalized design using a junction t
 
 ### Efficient Schema with Junction Table
 
-```mermaid
+<Mermaid height="200">
 erDiagram
-    STUDENTS {
+    STUDENTS {'{'}; 
         int StudentID
         string StudentName
-    }
+    {'}'}; 
 
-    COURSES {
+    COURSES {'{'}; 
         int CourseID
         string CourseName
-    }
+    {'}'}; 
 
-    STUDENT_COURSES {
+    STUDENT_COURSES {'{'}; 
         int StudentID
         int CourseID
-    }
+    {'}'}; 
 
-    STUDENTS ||--o{ STUDENT_COURSES: Enrolls
-    COURSES ||--o{ STUDENT_COURSES: Offers
-```
+    STUDENTS ||--o{'{'}; STUDENT_COURSES: Enrolls
+    COURSES ||--o{'{'}; STUDENT_COURSES: Offers
+</Mermaid>
 
 In this improved design:
 - The `STUDENTS` table stores student information.
