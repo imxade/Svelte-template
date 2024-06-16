@@ -6,6 +6,7 @@ tags:
   - Guide
   - Tech
   - Hardware
+  - laptop
 image: https://images.unsplash.com/photo-1593642634315-48f5414c3ad9
 draft: false
 ---
