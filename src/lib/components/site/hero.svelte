@@ -33,7 +33,7 @@
 			<h1 class="font-bold md:text-xl">Hi, I'm</h1>
 			<h1 class="text-2xl font-bold md:text-5xl">{siteOwner}</h1>
 			<p>
-				Striving for a meaningful existence. A technology enthusiast wishing to witness its evolution to the fullest. Willing to help create a world where mundane tasks are seamlessly automated, paving the way for a more liberated and fulfilling existence.
+                                Aspiring for purposeful existence. Wishing to witness technological advancements to the fullest. Willing to pave the way for a more liberated and fulfilling existence by automating mundane tasks that do not necessitate human-level intellect.
 			</p>
 			<SocialButtons />
 		</div>
