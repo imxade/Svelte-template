@@ -34,7 +34,7 @@ export const projects: ProjectType[] = [
 	{
 		title: 'Aunix: Linux Installer',
 		description:
-			'A versatile POSIX shell script designed for seamless installation of Linux distributions. Packed with features such as encryption (LUKS), LVirtualization, and RAID support. Notably, it allows multiple installations on a single partition and offers ISO-free installation.',
+			'A versatile POSIX shell script designed for seamless installation of Linux distributions. Packed with features such as encryption (LUKS), LVM, and RAID support. Notably, it allows multiple installations on a single partition and offers ISO-free installation.',
 		href: 'https://codeberg.org/zz/sh/wiki',
 		source: 'https://codeberg.org/zz/sh',
 		image: '/project/aunix.png',
