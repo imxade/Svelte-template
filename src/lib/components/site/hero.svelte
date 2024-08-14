@@ -33,7 +33,7 @@
 			<h1 class="font-bold md:text-xl">Hi, I'm</h1>
 			<h1 class="text-2xl font-bold md:text-5xl">{siteOwner}</h1>
 			<p>
-                                Aspiring for purposeful existence. Wishing to witness technological advancements to the fullest. Willing to pave the way for a more liberated and fulfilling existence by automating mundane tasks that do not necessitate human-level intellect.
+                                A simple being who enjoys simplifying things, brainstorming, and watching anime. Wishing to witness technological advancements to the fullest and willing to pave the way for a more fulfilling existence by automating every task that doesn't require human-level intellect.
 			</p>
 			<SocialButtons />
 		</div>
