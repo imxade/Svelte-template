@@ -9,18 +9,18 @@ layout: about
 ## About Me 👨‍💻
 
 Hello <span class="wave">👋</span>  
-I'm **Rituraj**, a tech enthusiast who also likes to write future proof code.
-With my recent foray into blogging, I would like to share the knowledge I've accumulated.
+I'm **Rituraj**, a simple guy who loves technology. Being an advocate for open source, I like to collaborate and write future-proof code for humans as computers doesn't have preferences. I also want to automate every job out there that doesn't fully utilize human-level intellect, paving the way for a more fulfilling existence, where job doesn't define ones status. And Artificial Intelligence can make that happen.
 
-My fascination lies in the potential of Artificial Intelligence to liberate Man Kind.
+It would be great to see functional programming gaining traction.
 
-I aspire to see functional programming gaining traction and becoming mainstream.
+Web Apps might soon dominate native apps, technologies like WebAssembly, WebGPU, WebXR, and WebTransport has recently hads caught my attension.
 
-I'm deeply enthusiastic about cutting-edge technologies such as WebAssembly, WebGPU, WebXR, and WebTransport, envisioning a future where the web experience transcends current boundaries and offers immersive, seamless interactions.
+I want to explore prallelism, and completely change the landscape of Computing till date with General-Purpose Graphics Processing (GPGPUs).
+Pushing everyone to re-evaluate existing algorithms and rethink Operating Systems from scratch.
 
-My curiosity extends to exploring the potential of General-Purpose Graphics Processing Units (GPGPUs) and microkernels, while eagerly anticipating the evolution of RISC-V architecture, which holds promise for open, customizable computing.
+I also want to see the Open Architecture RISC-V succeed.
 
-Embracing Extended Reality (XR) as the future, I'm excited to navigate the ever-evolving landscape and contribute to its advancement.
+Embracing Extended Reality (XR) as the future, I wish to contribute to its advancement.
 
 ## Technologies I've Worked With:
 
