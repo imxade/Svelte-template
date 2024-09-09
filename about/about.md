@@ -17,7 +17,7 @@ It’d be awesome to see functional programming getting more attention.
 
 I believe with technologies like WebAssembly, WebGPU, WebXR, and WebTransport, the web might soon take over the native space.
 
-I'm excited about exploring parallelism and changing the game with General-Purpose Graphics Processing Units (GPGPUs), pushing everyone to rethink algorithms and build new operating systems from scratch.
+I'm excited about exploring parallelism and changing the game with General-Purpose Graphics Processing Units (GPGPUs), pushing everyone to rethink existing algorithms and Operating Systems.
 
 I’m also rooting for the open architecture RISC-V to succeed.
 
