@@ -15,8 +15,8 @@ export const projects: ProjectType[] = [
 		title: 'My WorkSpace',
 		description:
 			'Explore my daily workflow setup and the array of tools I rely on for seamless productivity. Delve into details about my chosen operating system, essential tools, preferred display protocols, work environment configuration, browser preferences, office suite selection, and much more.',
-		href: 'https://codeberg.org/zz/sh/wiki',
-		source: 'https://codeberg.org/zz/sh',
+		href: 'https://codeberg.org/XADE/dotbin/wiki',
+		source: 'https://codeberg.org/XADE/dotbin',
 		image: '/project/setup.png',
 		techstack: ['Linux', 'Virtualization', 'NixOS'],
 		featured: true
