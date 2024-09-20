@@ -1,7 +1,7 @@
 ---
-title: First thing to do with you new Laptop
-description: A detailed guide on what are the things to take care of and which test to perform on your new laptop to check it au
-date: '2024-05-31'
+title: Big O: complexity vs contant
+description: Some thoughts on why avoiding constant from complexity is fair
+date: '2024-09-19'
 tags:
   - CS
 image: https://images.unsplash.com/photo-1639322537231-2f206e06af84
@@ -34,7 +34,8 @@ A line we've heard alot is
 
 - *Constants become negligible for very large n*
 
-Really? till **n** is finite no matter how large it is, isn't 3n^9 still n^9 + n^9 +n^9?
+Really? till **n** is finite no matter how large it is, isn't 3n^9 still n^9 + n^9 +n^9? 
+
 
 - *higher level grouping of algorithms with the same asymptotic behavior*
 
