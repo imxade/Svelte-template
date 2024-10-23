@@ -6,7 +6,7 @@ tags:
   - CS
   - OOP
   - paradigm
-image: https://images.unsplash.com/photo-1621452773781-0f992fd1f5cb
+image: https://unsplash.com/photos/turned-on-macbook-pro-LKsHwgzyk7c
 draft: false
 ---
 
@@ -31,12 +31,13 @@ But inheritance comes with some heavy baggage.
 
 Let’s say we’re modeling animals:
 
-```mermaid
+
+<Mermaid height="300">
 graph TD
     A[Animal] --> B[Mammal]
     B --> C[Dog]
     C --> D[Poodle]
-```
+</Mermaid>
 
 Here, `Poodle` inherits from `Dog`, `Dog` inherits from `Mammal`, and `Mammal` from `Animal`. Looks neat, right? But wait...
 
@@ -60,7 +61,8 @@ Composition takes a different approach: it models relationships as a *has-a* str
 
 Instead of inheriting, we create a `Car` that **has** an `Engine`, `Wheels`, and `Transmission`:
 
-```mermaid
+
+<Mermaid height="300">
 graph TD
     A[Car] --> B[Engine]
     A --> C[Wheels]
@@ -68,7 +70,7 @@ graph TD
     B --> E[FuelSystem]
     C --> F[Tires]
     D --> G[Gears]
-```
+</Mermaid>
 
 In this model, each component is independent. You can modify or swap `Engine` without affecting `Wheels` or `Transmission`. Everything is modular.
 
