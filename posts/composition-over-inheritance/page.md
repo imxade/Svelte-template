@@ -6,7 +6,7 @@ tags:
   - CS
   - OOP
   - paradigm
-image: https://unsplash.com/photos/turned-on-macbook-pro-LKsHwgzyk7c
+image: https://images.unsplash.com/photo-1554306274-f23873d9a26c
 draft: false
 ---
 
