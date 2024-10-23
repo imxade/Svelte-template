@@ -118,7 +118,7 @@ This allows `Mammal` to have the properties of `Animal` without rigid inheritanc
 
 ## Final Thoughts: Composition Wins
 
-So why *never* use inheritance? Because composition gives you the flexibility, reusability, and stability you need in complex systems. Inheritance may look easier at first, but as your codebase grows, it becomes a burden like that game of telephone where no one gets the right message.
+So why *never* use inheritance? Because composition gives you the flexibility, reusability, and stability you need in complex systems. Inheritance may look easier at first, but as your codebase grows, it becomes a burden like that game of telephone where no one gets the right message. Moreover, composability **encourages thinking about dependencies** instead of blindly inheriting everything from the parent, ultimately **resulting in reduction**.
 
 **Next time you design a class structure, choose composition.**
 
