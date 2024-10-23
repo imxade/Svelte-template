@@ -43,13 +43,13 @@ Here, `Poodle` inherits from `Dog`, `Dog` inherits from `Mammal`, and `Mammal` f
 
 ### The Whispering Problem
 
-Think of inheritance like a chain of people whispering a message. The message starts as clear as day, but as it’s passed down, it changes slightly or drastically. With each inheritance step, the original behavior may get altered or broken. One change at the top (`Animal`) ripples down, often unintentionally breaking subclasses (`Dog`, `Poodle`). By the time the message reaches the last person, the original meaning is gone.
+Think of inheritance like a chain of people whispering a message. The message starts as clear as day, but as it’s passed down, it changes slightly or drastically. With each inheritance step, the original behavior may get altered or broken. One change at the top (`Animal`) ripples down, often unintentionally breaking subclasses (`Dog`, `Poodle`). By the time the message reaches the last person, the original meaning might be gone as we didn't have absolute control over individuals.
 
 ### Why It’s a Problem
 
 1. **Tight Coupling**: A subclass relies too much on its parent class. If you change one, the others break.
 2. **Fragile Base Class**: A small change in a base class (like `Animal`) can have far-reaching, unexpected consequences.
-3. **Hierarchical Limitation**: Inheritance locks you into a rigid hierarchy. Need new behavior? You’ll have to modify the whole chain.
+3. **Hierarchical Limitation**: Inheritance locks you into a rigid hierarchy. Need new behavior? You may need to modify the whole chain.
 
 ## Composition: Flexible, Like LEGO
 
@@ -120,7 +120,7 @@ This allows `Mammal` to have the properties of `Animal` without rigid inheritanc
 
 So why *never* use inheritance? Because composition gives you the flexibility, reusability, and stability you need in complex systems. Inheritance may look easier at first, but as your codebase grows, it becomes a burden like that game of telephone where no one gets the right message.
 
-**Next time you design a class structure, choose composition.** You’ll end up with cleaner, more maintainable code, and your future self will thank you.
+**Next time you design a class structure, choose composition.**
 
 ---
 
