@@ -10,7 +10,7 @@ layout: about
 ## About Me 👨‍💻
 
 Hello <span class="wave">👋</span>  
-I'm **Rituraj**, and tech is my dose of dopamine. As an open-source enthusiast, I love collaborating and writing code that's future-proof code for humans because turing machine don’t have preferences but humans do.
+I'm **Rituraj**, and tech is my dose of dopamine. As an open-source enthusiast, I love collaborating and build resilient abstractions for humans as unlike machines they do have preferences.
 I’m also passionate about automating tasks that don’t fully tap into human creativity, aiming for a life where jobs don’t define our worth. Artificial Intelligence can help make that a reality.
 
 It’d be awesome to see functional programming getting more attention.
