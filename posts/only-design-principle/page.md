@@ -16,7 +16,8 @@ draft: true
 </script>
 
 Design priciple have been actually trying to define drection of flow of components(function/module/stack ....) of software product making it easier to maintain in long run. 
-Think of it like trying to reduce a multidimentional connected graph --> 2D graph --> tree (without cycle).  
+Think of it like trying to reduce a multidimentional connected graph --> 2D graph --> tree (without cycle). 
+New design priciple sometimes are just complicatied representation of what we've been using since 1970s which is the concepts of Independence and Composition covered in the coat of modules.
 
 ### independence
 
