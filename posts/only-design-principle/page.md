@@ -67,7 +67,7 @@ Since monolith doesn't have much constrants attached, we can apply both the conc
 [!img]
 
 This is similar to monolith but instead of interaction with functions some modules interacts through API.
-Main benefit here is independence of developing team regarding a service, for which only they are rsponsible.
+Main benefit here is independence of services from one another, so the one team doesn't have to rely or wait for others. 
 
 ## Organizational Design
 
