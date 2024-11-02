@@ -17,7 +17,7 @@ draft: true
 
 Design priciple have been actually trying to define drection of flow of components(function/module/stack ....) of software product making it easier to maintain in long run. 
 Think of it like trying to reduce a multidimentional connected graph --> 2D graph --> tree (without cycle). 
-New design priciple sometimes are just complicatied representation of what we've been using since 1970s which is the concepts of Independence and Composition covered in the coat of modules.
+New design priciple sometimes are just complicatied representation of what we've been using since 1970s which is the concepts of Independence and Composition covered in the coat of modules. This allows easy switching of components similar to how a bracnch of tree could be broken or removed with all of its child and a new branch grows.
 
 ### independence
 
@@ -79,3 +79,6 @@ these are the guide lines for organizing the code base. lets explore Clean Archi
 as one might see different layers are colored differently showing different levels.
 try to notice that as one tries to reach the center from outer level the order of composition decreases and sense of independence increases and vice verca. 
 There are many more designs that build upon this one for eg. hexagonal and onion but there are others too which might not completely align with Independence or composition like but still some part of it will be there.
+
+## references
+https://blogs.newardassociates.com/blog/2023/you-want-modules-not-microservices.html
