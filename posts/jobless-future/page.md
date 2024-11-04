@@ -1,10 +1,10 @@
 ---
-title: AI: A Jobless Future or New Opportunities?
-description: Analyzing the evolving landscape of artificial intelligence and its potential impact on the job market.
+title: AI, A Jobless Future?
+description: Exploring the evolving landscape of artificial intelligence and its potential impact on the job market.
 date: '2024-03-14'
 tags:
   - AI
-  - jobs
+  - job
   - future
 image: https://cdn.mos.cms.futurecdn.net/BWPBQYAy2DjS4ABFS4QZCT-650-80.jpg.webp
 draft: false
