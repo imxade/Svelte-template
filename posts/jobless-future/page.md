@@ -59,10 +59,12 @@ The consequence of this gradual adaptation is a creeping sense of insecurity and
 
 By highlighting the real problem of the slow pace of adaptation, we underscore the importance of proactive measures to address the challenges posed by AI-driven automation. Only by recognizing the gradual erosion of traditional job roles can we begin to formulate effective strategies to ensure a smooth transition for workers into new, AI-driven industries.
 
-### Should We Still Learn to Code?
+### Conslusion
 
-Absolutely. Even if coding becomes less of a profession in the future, retaining the ability to code remains vital. 
+Even with just LLMs (Large Language Models) and not true AI, we might soon be able to generate efficient code from very low-level system designs.
 
-Just like many subjects in our academic curriculum aren't directly tied to specific professions but are still deemed essential, coding, which has shaped our digital future, should be no exception.
+*Should We Still Learn to Code?*
 
-*Ability will grant us a sense of control and independence in a dependent future.*
+The answer to this question hinges on the understanding that many subjects in our academic curriculum aren't directly tied to specific professions but are still deemed essential. Should coding be an exception? Is it acceptable to lose control over the future we have created?
+
+*Abilities grant us a sense of independence over a dependent future.*
