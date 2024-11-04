@@ -68,4 +68,4 @@ So,
 
 The answer depends on recognizing that many subjects in our academic curriculum are not directly tied to specific professions yet are still deemed essential. Should coding be treated differently? Is it acceptable to relinquish control over our technological future?
 
-*Skills provide us with independence in an increasingly dependent world.*
+*Ability provides us with the sense of independence in an increasingly dependent future.*
