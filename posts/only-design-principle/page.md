@@ -7,7 +7,7 @@ tags:
   - Software
   - Design
 
-image: https://images.unsplash.com/photo-1639322537231-2f206e06af84
+image: https://plus.unsplash.com/premium_vector-1711987681684-5f80c7411b0e
 draft: true
 ---
 
@@ -55,7 +55,11 @@ unless local first product, I believe DBMS should be the obvious thing to be hos
 
 ### SOLID
 
-- 
+- S:
+- O:
+- L:
+- I:
+- D:
 
 ## Architecture
 
@@ -63,9 +67,9 @@ unless local first product, I believe DBMS should be the obvious thing to be hos
 
 Since monolith doesn't have much constrants attached, we can apply both the concepts of Independece and Composibility making it modular i.e. swappable components at each level.
 
-### Micro Service
+[!img](https://img.freepik.com/free-vector/cloud-data-storage-internet-traffic-routing-server-room-laptop-data-flow-data-uploading-remot_39422-630.jpg)
 
-[!img]
+### Micro Service
 
 This is similar to monolith but instead of interaction with functions some modules interacts through API.
 Main benefit here is independence of services from one another, so the one team doesn't have to rely or wait for others. 
@@ -74,7 +78,7 @@ Main benefit here is independence of services from one another, so the one team 
 
 these are the guide lines for organizing the code base. lets explore Clean Architecture .
 
-[!img]
+[!img](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
 as one might see different layers are colored differently showing different levels.
 try to notice that as one tries to reach the center from outer level the order of composition decreases and sense of independence increases and vice verca. 
