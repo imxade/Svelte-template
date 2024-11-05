@@ -54,13 +54,26 @@ Design principles play a crucial role in guiding the flow of components within s
 
 ![SOLID Principles](https://dotnettrickscloud.blob.core.windows.net/article/design%20patterns/3720240906160331.webp)
 
-- **S**: Independence guarantees that each component has a single responsibility, simplifying management and updates.
-- **O**: Composition enables extending functionality through new components without modifying existing ones.
-- **L**: The Liskov Substitution Principle is supported by independence, allowing components to be replaced seamlessly.
-- **I**: While composition contributes to this principle, its necessity is debatable.
-- **D**: Dependency Inversion encourages reliance on abstractions rather than concrete implementations.
+### SOLID Principles
 
-## Architecture
+The **SOLID** principles are a set of design guidelines that promote better software design and architecture. They focus on creating systems that are easy to maintain and extend. Here’s how independence and composition relate to each of the SOLID principles:
+
+- **S**: **Single Responsibility Principle (SRP)**  
+  Each component should have one reason to change. Independence ensures that each module handles a specific task, making it easier to update without affecting other components. For example, a logging module should only be responsible for logging.
+
+- **O**: **Open/Closed Principle (OCP)**  
+  Components should be open for extension but closed for modification. Composition allows you to add new functionalities by creating new modules instead of altering existing ones. For instance, adding a new payment method can be achieved by composing a new payment module.
+
+- **L**: **Liskov Substitution Principle (LSP)**  
+  Subtypes must be substitutable for their base types without altering the correctness of the program. While very specific to **objects** and unrelated to independence and composition, this can still be achieved via functions where parameter defines the associated properties. So, instead of object we can substitute parameters. 
+
+- **I**: **Interface Segregation Principle (ISP)**  
+  Clients should not be forced to depend on interfaces they do not use. This principle encourages creating smaller, more focused interfaces. Composibility achieves the same goal naturally, by combining independent parts.
+
+- **D**: **Dependency Inversion Principle (DIP)**  
+  High-level modules should depend on abstractions, not on low-level modules. Composition serves as a bridge where high-level modules are built from compositions, which further depends on lower-level components.
+
+## Deployment Architecture
 
 ### Modular Monolith
 
@@ -80,7 +93,7 @@ These are the guidelines for organizing the codebase. Let's explore **Clean Arch
 
 ![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
-Notice how different layers are represented in various colors; as you move from the outer levels toward the center, the degree of composition decreases while independence increases. Other designs like Hexagonal and Onion architecture build upon these concepts but may not align entirely with independence or composition.
+Notice how different layers are represented in various colors, as you move from the outer levels toward the center, the degree of composition decreases while independence increases. Also, components that belongs to same layers are independent of each other. Other designs like Hexagonal and Onion architecture are also related to these concepts.
 
 ## Conclusion
 
