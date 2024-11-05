@@ -1,12 +1,12 @@
 ---
 title: Only fundamental design principle to rule them all.
 description: Exploring and breaking design principles into more fundamental parts.
+date: '2024-10-30'
 tags:
   - Tech
   - Development
   - Software
   - Design
-
 image: https://plus.unsplash.com/premium_vector-1711987681684-5f80c7411b0e
 draft: false
 ---
