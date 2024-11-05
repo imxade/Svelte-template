@@ -1,5 +1,5 @@
 ---
-title: Only fundamental design principle to rule them all.
+title: A design principle to rule them all.
 description: Exploring and breaking design principles into more fundamental parts.
 date: '2024-10-30'
 tags:
