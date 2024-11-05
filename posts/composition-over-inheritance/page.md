@@ -1,6 +1,6 @@
 ---
 title: Why Composition Over Inheritance?
-description: Some thought on why to avoid inheritance
+description: Some thought on why to avoid inheritance.
 date: '2024-10-19'
 tags:
   - CS
