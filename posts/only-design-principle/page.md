@@ -17,21 +17,28 @@ draft: false
 
 Design principles play a crucial role in guiding the flow of components within software products, ultimately making them easier to maintain over the long term. This process can be visualized as reducing a complex, multidimensional **graph** into a simpler 2D representation, ideally forming a **tree** structure without cycles. Many new design principles often complicate concepts that have been around since the 1970s, that is **Independence** and **Composition**, which are foundational to **modular design**. These allow for easy swapping of components, much like breaking a branch from a tree along with its child branches, making room for a new branch to grow.
 
-One of the most popular principles that encapsulates similar idea is the **Unix Philosophy**: *"Do One Thing and Do It Well."* 
-
 ## Independence
 
-- **Black Box Concept**: Each component should function as a black box for other components, meaning that only the input and output matter.
-- **Easy Swapping**: Components can be easily swapped by managing their inputs and outputs.
-- **Single Responsibility**: Each component at every level should have a single responsibility.
+**Independence** is a key principle that emphasizes treating each component in a software system as a separate entity. Here are the main points:
+
+- **Black Box Concept**: Each component should function as a "black box," where only the input and output matter. This allows developers to focus on interactions without needing to understand internal details.
+
+- **Easy Swapping**: Components can be easily replaced without modifying the entire system, provided they adhere to the same input/output contracts. For instance, switching from one database to another can be done with minimal changes.
+
+- **Single Responsibility**: Each component should have one primary function, making it easier to maintain and reducing the likelihood of bugs. For example, a logging module should only handle logging tasks.
+
 
 ## Composition
 
-- **Abstraction**: This connects independent modules, allowing lower-level components to interact without direct dependencies.
-  
-Composition is essential for connecting these independent modules at the same level, facilitating better organization and functionality.
+**Composition** focuses on how independent components work together to create a cohesive system. Here are the key aspects:
 
-## Can This Fit Common Design Principles?
+- **Abstraction**: Composition uses abstractions to define how independent modules interact, allowing them to function together smoothly. For example, user management and content creation modules can communicate through defined interfaces.
+
+- **Enhanced Organization**: Composition creates a structured codebase where modules are logically connected, simplifying navigation and understanding. This hides the complexities of lower-level implementations.
+
+- **Flexible Design**: It allows for new functionalities to be added without altering existing components. For instance, introducing a new notification module can be done without changing other parts of the system.
+
+## Can They Fit Common Design Principles?
 
 ### DRY (Don't Repeat Yourself)
 
