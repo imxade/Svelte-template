@@ -1,6 +1,6 @@
 ---
 title: Only fundamental design principle to rule them all.
-description: Some of my thoughts on why DSA might be the preferred choice by companies.
+description: Exploring and breaking design principles into more fundamental parts.
 tags:
   - Tech
   - Development
@@ -8,81 +8,73 @@ tags:
   - Design
 
 image: https://plus.unsplash.com/premium_vector-1711987681684-5f80c7411b0e
-draft: true
+draft: false
 ---
 
 <script>
   import Mermaid from '$lib/components/markdown/mermaid.svelte';
 </script>
 
-Design priciple have been actually trying to define drection of flow of components(function/module/stack ....) of software product making it easier to maintain in long run. 
-Think of it like trying to reduce a multidimentional connected graph --> 2D graph --> tree (without cycle). 
-New design priciple sometimes are just complicatied representation of what we've been using since 1970s which is the concepts of Independence and Composition covered in the coat of modules. This allows easy switching of components similar to how a bracnch of tree could be broken or removed with all of its child and a new branch grows.
+Design principles play a crucial role in guiding the flow of components within software products, ultimately making them easier to maintain over the long term. This process can be visualized as reducing a complex, multidimensional **graph** into a simpler 2D representation, ideally forming a **tree** structure without cycles. Many new design principles often complicate concepts that have been around since the 1970s, that is **Independence** and **Composition**, which are foundational to **modular design**. These allow for easy swapping of components, much like breaking a branch from a tree along with its child branches, making room for a new branch to grow.
 
-### independence
+One of the most popular principles that encapsulates similar idea is the **Unix Philosophy**: *"Do One Thing and Do It Well."* 
 
-- every component should be treated as a black box by other compoments when only the input and output matters.
-- swap components easly by just taking care of input and output.
-- component at each level should have a single responsibility.
+## Independence
 
+- **Black Box Concept**: Each component should function as a black box for other components, meaning that only the input and output matter.
+- **Easy Swapping**: Components can be easily swapped by managing their inputs and outputs.
+- **Single Responsibility**: Each component at every level should have a single responsibility.
 
-This can be applied anywhere (even if the appliance might not be absolute) even monolith. And the same monolith being utilized via api calls instead of function calls would become microservice.
-It's just a bit more complecated advertizement making it look different, better and obvious.
+## Composition
 
-I'm currently 
+- **Abstraction**: This connects independent modules, allowing lower-level components to interact without direct dependencies.
+  
+Composition is essential for connecting these independent modules at the same level, facilitating better organization and functionality.
 
-unless local first product, I believe DBMS should be the obvious thing to be hosted independently with api even in case of monolith.
+## Can This Fit Common Design Principles?
 
+### DRY (Don't Repeat Yourself)
 
+- The DRY principle advocates for writing code once when the intended behavior is the same. This reduces redundancy and makes global changes easier.
+- Composability enhances this by combining lower-level components efficiently.
 
-### Composition
+### KISS (Keep It Simple, Stupid)
 
-- abstraction connecting independent modules
+- KISS emphasizes simplicity in design. Avoid nesting too much logic within a single abstraction to prevent complexity.
+- Independence ensures that components remain simple and focused on their single responsibility while composability helps abstract away unnecessary complexity.
 
-- this is the part connection lower level components independent of each other at same level
+### SOLID Principles
 
-## Can this fit the most common design principles?
+![SOLID Principles](https://dotnettrickscloud.blob.core.windows.net/article/design%20patterns/3720240906160331.webp)
 
-### DRY
-
-- This simply implies write only once if the intended behaviour is same. So, any change can globally span with less code.
-- That's what composibility promotes by combining lower level components.
-
-### KISS
-
-- This one says keep eveything simple to understand, i.e. don't nest too much logic into a single abstraction making it cumbersome.
-- again, independence of component keeps them simple with single reponsibility while composibility joins them abstracting away alot of funtionality keeping things simple to navigate (in a single path like a tree connecting composition to components) and understand 
-
-### SOLID
-
-- S:
-- O:
-- L:
-- I:
-- D:
+- **S**: Independence guarantees that each component has a single responsibility, simplifying management and updates.
+- **O**: Composition enables extending functionality through new components without modifying existing ones.
+- **L**: The Liskov Substitution Principle is supported by independence, allowing components to be replaced seamlessly.
+- **I**: While composition contributes to this principle, its necessity is debatable.
+- **D**: Dependency Inversion encourages reliance on abstractions rather than concrete implementations.
 
 ## Architecture
 
-### Modular monolith
+### Modular Monolith
 
-Since monolith doesn't have much constrants attached, we can apply both the concepts of Independece and Composibility making it modular i.e. swappable components at each level.
+A monolith barely has any constraints, allowing the application of both Independence and Composition principles, enabling a modular system where components are swappable at each level.
 
-[!img](https://img.freepik.com/free-vector/cloud-data-storage-internet-traffic-routing-server-room-laptop-data-flow-data-uploading-remot_39422-630.jpg)
+![Modular Monolith](https://img.freepik.com/free-vector/cloud-data-storage-internet-traffic-routing-server-room-laptop-data-flow-data-uploading-remot_39422-630.jpg)
 
-### Micro Service
+### Microservices
 
-This is similar to monolith but instead of interaction with functions some modules interacts through API.
-Main benefit here is independence of services from one another, so the one team doesn't have to rely or wait for others. 
+Similar to a modular monolith, but with interactions occurring through APIs rather than direct function calls. This setup enhances service independence, allowing teams to work and deploy without dependency on others. The hype around it may stem from fancier advertisements presenting a complex approach to achieve simpler goals.
+
+But in my view, unless it’s a local-first product, database management systems (DBMS) should ideally be hosted independently with APIs, even for monoliths.
 
 ## Organizational Design
 
-these are the guide lines for organizing the code base. lets explore Clean Architecture .
+These are the guidelines for organizing the codebase. Let's explore **Clean Architecture.**
 
-[!img](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
+![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
-as one might see different layers are colored differently showing different levels.
-try to notice that as one tries to reach the center from outer level the order of composition decreases and sense of independence increases and vice verca. 
-There are many more designs that build upon this one for eg. hexagonal and onion but there are others too which might not completely align with Independence or composition like but still some part of it will be there.
+Notice how different layers are represented in various colors; as you move from the outer levels toward the center, the degree of composition decreases while independence increases. Other designs like Hexagonal and Onion architecture build upon these concepts but may not align entirely with independence or composition.
 
-## references
-https://blogs.newardassociates.com/blog/2023/you-want-modules-not-microservices.html
+## Conclusion
+
+In the end, effective software architecture comes down to balancing independence and composition. By designing composed components that remain independent of each other at every level, we create a system that is both resilient and flexible. Whether it’s a monolithic application or microservices, this modular approach allows for easier updates, swaps, and scaling over time.
