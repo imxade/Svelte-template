@@ -1,5 +1,5 @@
 ---
-title: A design principle to rule them all.
+title: Only design principle to rule them all.
 description: Exploring and breaking design principles into more fundamental parts.
 date: '2024-10-30'
 tags:
@@ -54,10 +54,6 @@ Design principles play a crucial role in guiding the flow of components within s
 
 ![SOLID Principles](https://dotnettrickscloud.blob.core.windows.net/article/design%20patterns/3720240906160331.webp)
 
-### SOLID Principles
-
-The **SOLID** principles are a set of design guidelines that promote better software design and architecture. They focus on creating systems that are easy to maintain and extend. Here’s how independence and composition relate to each of the SOLID principles:
-
 - **S**: **Single Responsibility Principle (SRP)**  
   Each component should have one reason to change. Independence ensures that each module handles a specific task, making it easier to update without affecting other components. For example, a logging module should only be responsible for logging.
 
@@ -83,9 +79,9 @@ A monolith barely has any constraints, allowing the application of both Independ
 
 ### Microservices
 
-Similar to a modular monolith, but with interactions occurring through APIs rather than direct function calls. This setup enhances service independence, allowing teams to work and deploy without dependency on others. The hype around it may stem from fancier advertisements presenting a complex approach to achieve simpler goals.
+Similar to a modular monolith, this architecture utilizes APIs for interactions rather than direct function calls. This setup allows a team to work on and deploy their service independently while removing technology stack-related constraints.
 
-But in my view, unless it’s a local-first product, database management systems (DBMS) should ideally be hosted independently with APIs, even for monoliths.
+Unless for a local-first product, the database management system (DBMS) should preferably be independent from the rest, even for monoliths. This independence facilitates the easy expansion of services from existing data and allows for independent auditing and changes according to future requirements.
 
 ## Organizational Design
 
