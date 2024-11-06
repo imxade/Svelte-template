@@ -68,11 +68,14 @@ High-level modules should depend on abstractions, not on low-level modules. Comp
 
 ## Deployment Architecture
 
+![Modular Monolith](https://img.freepik.com/free-vector/cloud-data-storage-internet-traffic-routing-server-room-laptop-data-flow-data-uploading-remot_39422-630.jpg)
+
 ### Modular Monolith
 
 A monolith barely has any constraints, allowing the application of both Independence and Composition principles, enabling a modular system where components are swappable at each level.
 
-![Modular Monolith](https://img.freepik.com/free-vector/cloud-data-storage-internet-traffic-routing-server-room-laptop-data-flow-data-uploading-remot_39422-630.jpg)
+Compared to traditional monolithic architectures, modular monoliths facilitate an easier transition to microservices when necessary. 
+Each module's independence means it can serve as a candidate for future microservices without significant rework.
 
 ### Microservices
 
@@ -90,4 +93,6 @@ Notice how different layers are represented in various colors, as you move from 
 
 ## Conclusion
 
-In the end, effective software architecture comes down to balancing independence and composition. By designing composed components that remain independent of each other at every level, we create a system that is both resilient and flexible. Whether it’s a monolithic application or microservices, this modular approach allows for easier updates, swaps, and scaling over time.
+In the end, by maintaining a **tree-like** modular structure at each level, while balancing independence and composition, we create a system that is both resilient and flexible.
+
+Should we follow the tradtion and name a new Architecture? How about **The Tree Architecture**?
