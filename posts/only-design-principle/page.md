@@ -23,10 +23,11 @@ Design principles play a crucial role in guiding the flow of components within s
 
 - **Black Box Concept**: Each component should function as a "black box," where only the input and output matter. This allows developers to focus on interactions without needing to understand internal details.
 
-- **Easy Swapping**: Components can be easily replaced without modifying the entire system, provided they adhere to the same input/output contracts. For instance, switching from one database to another can be done with minimal changes.
+- **Easy Swapping**: Components can be easily replaced without modifying the entire system, provided they adhere to the same input/output contracts.
 
-- **Single Responsibility**: Each component should have one primary function, making it easier to maintain and reducing the likelihood of bugs. For example, a logging module should only handle logging tasks.
+- **Loose Coupling**: Minimizing dependencies between components ensures that changes in one component do not affect others, enhancing flexibility and maintainability.
 
+- **High Cohesion**: Each component should have a single well-defined purpose, making it easier to understand and manage independently.
 
 ## Composition
 
@@ -36,38 +37,39 @@ Design principles play a crucial role in guiding the flow of components within s
 
 - **Enhanced Organization**: Composition creates a structured codebase where modules are logically connected, simplifying navigation and understanding. This hides the complexities of lower-level implementations.
 
-- **Flexible Design**: It allows for new functionalities to be added without altering existing components. For instance, introducing a new notification module can be done without changing other parts of the system.
+- **Reusability**: Composable components can be reused across different systems or projects, reducing redundancy and improving development efficiency.
 
 ## Can They Fit Common Design Principles?
 
 ### DRY (Don't Repeat Yourself)
 
-- The DRY principle advocates for writing code once when the intended behavior is the same. This reduces redundancy and makes global changes easier.
-- Composability enhances this by combining lower-level components efficiently.
+Composability avoids repetition by combining independent components, ensuring that functionality is implemented only once.
 
 ### KISS (Keep It Simple, Stupid)
 
-- KISS emphasizes simplicity in design. Avoid nesting too much logic within a single abstraction to prevent complexity.
-- Independence ensures that components remain simple and focused on their single responsibility while composability helps abstract away unnecessary complexity.
+Independence ensures that components remain simple and focused on their single responsibility, while composability helps abstract away unnecessary complexity.
 
 ### SOLID Principles
 
-![SOLID Principles](https://dotnettrickscloud.blob.core.windows.net/article/design%20patterns/3720240906160331.webp)
+#### **S**: **Single Responsibility Principle**  
 
-- **S**: **Single Responsibility Principle (SRP)**  
-  Each component should have one reason to change. Independence ensures that each module handles a specific task, making it easier to update without affecting other components. For example, a logging module should only be responsible for logging.
+Each component should have one reason to change. Independence ensures that each module handles a specific task, making it easier to update without affecting other components. For example, a logging module should only be responsible for logging.
 
-- **O**: **Open/Closed Principle (OCP)**  
-  Components should be open for extension but closed for modification. Composition allows you to add new functionalities by creating new modules instead of altering existing ones. For instance, adding a new payment method can be achieved by composing a new payment module.
+#### **O**: **Open/Closed Principle**
 
-- **L**: **Liskov Substitution Principle (LSP)**  
-  Subtypes must be substitutable for their base types without altering the correctness of the program. While very specific to **objects** and unrelated to independence and composition, this can still be achieved via functions where parameter defines the associated properties. So, instead of object we can substitute parameters. 
+Components should be open for extension but closed for modification. Composition allows you to add new functionalities by creating new modules instead of altering existing ones. For instance, adding a new payment method can be achieved by composing a new payment module.
 
-- **I**: **Interface Segregation Principle (ISP)**  
-  Clients should not be forced to depend on interfaces they do not use. This principle encourages creating smaller, more focused interfaces. Composibility achieves the same goal naturally, by combining independent parts.
+#### **L**: **Liskov Substitution Principle**  
 
-- **D**: **Dependency Inversion Principle (DIP)**  
-  High-level modules should depend on abstractions, not on low-level modules. Composition serves as a bridge where high-level modules are built from compositions, which further depends on lower-level components.
+Subtypes must be substitutable for their base types without altering the correctness of the program. While very specific to **objects** and unrelated to independence and composition, this can still be achieved via functions where parameter defines the associated properties and behaviour. So, instead of object we can substitute parameters. 
+
+#### **I**: **Interface Segregation Principle**  
+
+Clients should not be forced to depend on interfaces they do not use. This principle encourages creating smaller, more focused interfaces. Composibility achieves the same goal naturally, by combining independent parts.
+
+#### **D**: **Dependency Inversion Principle (DIP)**  
+
+High-level modules should depend on abstractions, not on low-level modules. Compositions in the layer between high and low level modules acts as the needed abstraction.
 
 ## Deployment Architecture
 
@@ -85,7 +87,7 @@ Unless for a local-first product, the database management system (DBMS) should p
 
 ## Organizational Design
 
-These are the guidelines for organizing the codebase. Let's explore **Clean Architecture.**
+These are the guidelines for organizing the codebase. Let's explore the popular **Clean Architecture.**
 
 ![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
