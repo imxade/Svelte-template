@@ -17,27 +17,27 @@ draft: false
 
 Design principles play a crucial role in guiding the flow of components within software products, ultimately making them easier to maintain over the long term. This process can be visualized as reducing a complex, multidimensional **graph** into a simpler 2D representation, ideally forming a **tree** structure without cycles. Many new design principles often complicate concepts that have been around since the 1970s, that is **Independence** and **Composition**, which are foundational to **modular design**. These allow for easy swapping of components, much like breaking a branch from a tree along with its child branches, making room for a new branch to grow.
 
-## Independence
+### Understanding Independence in Software Design
 
-**Independence** is a key principle that emphasizes treating each component in a software system as a separate entity. Here are the main points:
+Independence emphasizes treating each component in a software system as a separate entity. Here are the main points:
 
-- **Black Box Concept**: Each component should function as a "black box," where only the input and output matter. This allows developers to focus on interactions without needing to understand internal details.
+- **Black Box Concept:** Each component operates as a "black box," meaning its internal workings are hidden from other components. This results in unrelated internals of components, leading to no interdependency. Only the inputs it accepts and the outputs it produces are visible and relevant.
 
-- **Easy Swapping**: Components can be easily replaced without modifying the entire system, provided they adhere to the same input/output contracts.
+  - **Loose Coupling:** Minimizing dependencies between components ensures that changes in one component do not affect others. This enhances flexibility and maintainability, making it easier to manage large systems.
 
-- **Loose Coupling**: Minimizing dependencies between components ensures that changes in one component do not affect others, enhancing flexibility and maintainability.
+- **High Cohesion:** Each component should have a single well-defined purpose, which makes it easier to understand and manage independently. High cohesion within components leads to better organization and clearer responsibilities.
 
-- **High Cohesion**: Each component should have a single well-defined purpose, making it easier to understand and manage independently.
+- **Easy Swapping:** Components can be replaced easily without modifying the entire system, as long as they adhere to the same input/output contracts. This allows for easier modifications.
 
-## Composition
+### The Power of Composition
 
-**Composition** focuses on how independent components work together to create a cohesive system. Here are the key aspects:
+Composition focuses on how independent components work together to create a cohesive system. Here are the key aspects:
 
-- **Abstraction**: Composition uses abstractions to define how independent modules interact, allowing them to function together smoothly. For example, user management and content creation modules can communicate through defined interfaces.
+- **Abstraction:** Composition uses abstractions to define how independent modules interact, allowing them to function together smoothly. For instance, user management and content creation modules can communicate through defined interfaces, meaning they can exchange information without needing direct knowledge of each other's internal implementations.
 
-- **Enhanced Organization**: Composition creates a structured codebase where modules are logically connected, simplifying navigation and understanding. This hides the complexities of lower-level implementations.
+- **Enhanced Organization:** Composition creates a structured codebase where modules are logically connected. This organization simplifies navigation and understanding while hiding the complexities of lower-level implementations. Developers can focus on high-level functionality rather than getting bogged down by details.
 
-- **Reusability**: Composable components can be reused across different systems or projects, reducing redundancy and improving development efficiency.
+- **Reusability:** Composable components can be reused across different systems or projects, reducing redundancy and improving development efficiency. For example, a logging module developed for one application can be integrated into another project with minimal adjustments.
 
 ## Can They Fit Common Design Principles?
 
