@@ -51,24 +51,19 @@ Independence ensures that components remain simple and focused on their single r
 
 ### SOLID Principles
 
-#### **S**: **Single Responsibility Principle**  
-
+- **S**: **Single Responsibility Principle**  
 Each component should have one reason to change. Independence ensures that each module handles a specific task, making it easier to update without affecting other components. For example, a logging module should only be responsible for logging.
 
-#### **O**: **Open/Closed Principle**
-
+- **O**: **Open/Closed Principle**
 Components should be open for extension but closed for modification. Composition allows you to add new functionalities by creating new modules instead of altering existing ones. For instance, adding a new payment method can be achieved by composing a new payment module.
 
-#### **L**: **Liskov Substitution Principle**  
-
+- **L**: **Liskov Substitution Principle**  
 Subtypes must be substitutable for their base types without altering the correctness of the program. While very specific to **objects** and unrelated to independence and composition, this can still be achieved via functions where parameter defines the associated properties and behaviour. So, instead of object we can substitute parameters. 
 
-#### **I**: **Interface Segregation Principle**  
-
+- **I**: **Interface Segregation Principle**  
 Clients should not be forced to depend on interfaces they do not use. This principle encourages creating smaller, more focused interfaces. Composibility achieves the same goal naturally, by combining independent parts.
 
-#### **D**: **Dependency Inversion Principle (DIP)**  
-
+- **D**: **Dependency Inversion Principle (DIP)**  
 High-level modules should depend on abstractions, not on low-level modules. Compositions in the layer between high and low level modules acts as the needed abstraction.
 
 ## Deployment Architecture
