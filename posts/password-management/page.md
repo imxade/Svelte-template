@@ -10,42 +10,46 @@ image: https://www.svgrepo.com/show/194005/password.svg
 draft: false
 ---
 
-As a self-proclaimed privacy enthusiast, I recently found myself embroiled in a heated discussion on Reddit. The topic? My decision to continue using Google's "Signin with Google" feature despite my privacy concerns. The responses were varied, but the majority seemed to advocate for the use of password managers instead.
+I recently engaged in a heated discussion on Reddit regarding my choice to continue using Google's "Sign in with Google" feature, despite my privacy concerns. The responses varied widely, with many users advocating for password managers instead. This blog post aims to clarify my stance on both options while addressing some vague claims that may have arisen during the discussion.
 
 ## The Great Password Manager Debate
 
-My rebuttal to the suggestions of adopting password managers was met with skepticism. Here's a breakdown of my perspective:
+In response to the suggestion of adopting password managers, I encountered skepticism. Here’s a breakdown of my perspective:
 
-1. **Security Quandaries**
-  - One common argument in favor of password managers is their supposed security. However, history has shown that even prominent platforms like LastPass and 1Password have fallen victim to breaches. Trusting all your passwords to a single service can be a risky proposition.
-2. **Dependency Dilemma**
-  - I value minimizing dependencies in my digital life. Each additional service introduces a potential point of failure or vulnerability. Yet, password managers inherently require us to rely on yet another service, contradicting my preference for simplicity and security.
-3. **Syncing Woes**
-  - Maintaining consistency across multiple devices is essential in today's interconnected world. Yet, syncing passwords across platforms with a password manager can be cumbersome and prone to errors.
-4. **Platform Compatibility**  
-  - Not all password managers seamlessly integrate with every platform or browser. This lack of universal compatibility can lead to frustration and inefficiency in daily usage.
-5. **Self-Hosting Hurdles**
-  - Some advocate for self-hosting password managers as a solution to privacy concerns. However, this presents its own challenges. Managing a self-hosted solution requires technical expertise and introduces additional security considerations and investment on premises.
+### **1. Security Quandaries**
+While password managers are often touted for their security, history has demonstrated that even reputable platforms like LastPass and 1Password have experienced significant breaches. Relying on a single service to store all your passwords can be a risky endeavor, as it centralizes your sensitive information in one location, making it a prime target for cybercriminals. This concern is valid for both password managers and SSO.
 
-## The Case for &quot;Sign in with Google&quot;
+### **2. Self-Hosting Hurdles**
+Some advocate for self-hosting password managers as a solution to privacy concerns. However, this approach requires technical expertise and introduces additional security considerations and investments in infrastructure.
 
-Conversely, opting for "Sign in with Google" presents its own set of compelling arguments:
+### **3. Syncing Woes**
+In our interconnected world, maintaining consistency across multiple devices is crucial. However, syncing passwords across platforms with a password manager can be cumbersome and prone to errors, leading to frustration.
 
-1. **Convenience**
-  - Simplifying the login process, this feature alleviates the burden of managing numerous passwords, thereby enhancing user convenience.
-2. **Autofill Mitigation**
-  - One aspect often overlooked in the debate is that "signin with Google" does not autofill fields, thereby mitigating related attacks. This adds a layer of security compared to password managers, which may automatically fill in sensitive information.
-3. **Google Ecosystem**
-  - For those deeply entrenched in Google's ecosystem, reliance on password managers may prove counterproductive, only serving to increase the attack surface.
+### **4. Platform Compatibility**
+Not all password managers seamlessly integrate with every platform or browser. This lack of universal compatibility can result in inefficiencies and hinder daily usage.
+
+### **5. Dependency Dilemma**
+I prioritize minimizing dependencies in my digital life. Each additional service introduces potential points of failure or vulnerability. Password managers inherently require reliance on another service, which contradicts my preference for simplicity and security.
+
+## The Case for "Sign in with Google"
+
+Conversely, opting for "Sign in with Google" presents compelling arguments:
+
+### **1. Convenience**
+This feature simplifies the login process, alleviating the burden of managing numerous passwords and enhancing user convenience.
+
+### **2. Autofill Mitigation**
+An often-overlooked aspect is that "Sign in with Google" does not autofill fields automatically, which mitigates the risk of related attacks. This adds a layer of security compared to password managers that may automatically fill in sensitive information.
+
+### **3. Google Ecosystem**
+For users deeply entrenched in Google's ecosystem, relying on password managers may prove counterproductive and increase the attack surface.
 
 ## A Better Option?
 
-Well, it exists but not adopted by many. 
-
-I'm talking about **SSO with Proton Mail**. Yeah, that's not a bluff and is possible via [SimpleLogin](https://simplelogin.io/developer/).
+Not widely adopted but [**SimpleLogin**](https://simplelogin.io/developer/) features SSO. This option offers enhanced privacy without the drawbacks associated with traditional password management or Google's sign-in feature.
 
 ## Conclusion
 
-While password managers offer a more ostensibly private solution by decentralizing authentication, they introduce a litany of challenges and vulnerabilities. Conversely, "Sign in with Google" may boast enhanced security and convenience owing to its widespread adoption. However, the optimal choice hinges on individual preferences and priorities.
+While password managers provide a seemingly more private solution by decentralizing authentication, they introduce various challenges and vulnerabilities. In contrast, "Sign in with Google" offers enhanced security and convenience due to its widespread adoption. Ultimately, the best choice depends on individual preferences and priorities regarding privacy and security.
 
-> By no means does this post advocate for any corporate entity. The analysis is solely based on evaluating the merits and drawbacks of different authentication methods in the pursuit of privacy and security.
+> This post does not advocate for any corporate entity. It is merely an opinion-based analysis of the merits and drawbacks of different authentication methods in the pursuit of privacy and security.
