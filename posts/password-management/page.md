@@ -16,32 +16,32 @@ I recently engaged in a heated discussion on Reddit regarding my choice to conti
 
 In response to the suggestion of adopting password managers, I encountered skepticism. Here’s a breakdown of my perspective:
 
-### **1. Security Quandaries**
+### 1. Security Quandaries
 While password managers are often touted for their security, history has demonstrated that even reputable platforms like LastPass and 1Password have experienced significant breaches. Relying on a single service to store all your passwords can be a risky endeavor, as it centralizes your sensitive information in one location, making it a prime target for cybercriminals. This concern is valid for both password managers and SSO.
 
-### **2. Self-Hosting Hurdles**
+### 2. Self-Hosting Hurdles
 Some advocate for self-hosting password managers as a solution to privacy concerns. However, this approach requires technical expertise and introduces additional security considerations and investments in infrastructure.
 
-### **3. Syncing Woes**
+### 3. Syncing Woes
 In our interconnected world, maintaining consistency across multiple devices is crucial. However, syncing passwords across platforms with a password manager can be cumbersome and prone to errors, leading to frustration.
 
-### **4. Platform Compatibility**
+### 4. Platform Compatibility
 Not all password managers seamlessly integrate with every platform or browser. This lack of universal compatibility can result in inefficiencies and hinder daily usage.
 
-### **5. Dependency Dilemma**
+### 5. Dependency Dilemma
 I prioritize minimizing dependencies in my digital life. Each additional service introduces potential points of failure or vulnerability. Password managers inherently require reliance on another service, which contradicts my preference for simplicity and security.
 
-## The Case for "Sign in with Google"
+## The Case for &quot;Sign in with Google&quot;
 
 Conversely, opting for "Sign in with Google" presents compelling arguments:
 
-### **1. Convenience**
+### 1. Convenience
 This feature simplifies the login process, alleviating the burden of managing numerous passwords and enhancing user convenience.
 
-### **2. Autofill Mitigation**
+### 2. Autofill Mitigation
 An often-overlooked aspect is that "Sign in with Google" does not autofill fields automatically, which mitigates the risk of related attacks. This adds a layer of security compared to password managers that may automatically fill in sensitive information.
 
-### **3. Google Ecosystem**
+### 3. Google Ecosystem
 For users deeply entrenched in Google's ecosystem, relying on password managers may prove counterproductive and increase the attack surface.
 
 ## A Better Option?
