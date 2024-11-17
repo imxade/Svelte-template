@@ -19,11 +19,11 @@
 
 <div class="container" style:height={$mermaidRendered ? 'auto' : `${height}px`}>
   {#if $mermaidRendered}
-    <pre in:fade={{ delay: 1000, duration: 300 }} class="mermaid" style:height={`${height}px`}>
+    <pre in:fade={{ delay: 1000, duration: 300 }} class="mermaid" style:height={`${height}px`} style:width={`${height}px`}>
       <slot />
     </pre>
   {:else}
-    <div out:fade={{ duration: 300 }} class="placeholder" style:height={`${height}px`}>
+    <div out:fade={{ duration: 300 }} class="placeholder" style:height={`${height}px`} style:width={`${height}px`}>
       <Loading loading={true} />
     </div>
   {/if}
