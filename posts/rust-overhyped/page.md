@@ -37,7 +37,7 @@ This system ensures that there is always a clear understanding of who is respons
 
 To illustrate how ownership works in Rust, let's consider an Entity-Relationship (ER) diagram that represents ownership relationships:
 
-<Mermaid height="500">
+<Mermaid height="500" width="700">
 graph TD;
     A[Value] -->|owned by| B[Owner]
     B -->|borrows| C[Borrower]
