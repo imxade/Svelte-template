@@ -67,7 +67,8 @@ While Rust’s memory management provides significant advantages, it does introd
 
 For example, consider implementing a doubly linked list in Rust. Each node can only have one owner, creating challenges when managing pointers for previous and next nodes:
 
-- If both `prev` and `next` hold pointers to a middle node, determining ownership becomes problematic.
+- If both `prev` and `next` hold pointers to a middle node, it's breaks the borrowing rules.
+- Even though **Arc** (Atomic Reference Counting) supports shared ownership, it introduces performance trade-offs like the overhead of atomic operations and complexities with **weak pointers** (`Weak<T>`), which help avoid cycles but add management overhead.
 - Rust enforces rules that prevent simultaneous mutable access, complicating operations like insertion or deletion.
 
 ### Conclusion
