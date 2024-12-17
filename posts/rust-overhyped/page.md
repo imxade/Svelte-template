@@ -13,7 +13,7 @@ draft: false
   import Mermaid from '$lib/components/markdown/mermaid.svelte';
 </script>
 
-In the world of systems programming, Rust has emerged as a language that combines performance with memory safety, leading to a significant shift in how software is developed. With its adoption even in critical areas like the Linux kernel and support from entities like the US government for safer programming languages, it's clear that Rust is making waves. However, while the hype surrounding Rust is palpable, it’s essential to dive deeper into its features and implications.
+In the world of systems programming, Rust has emerged as a language that combines performance with memory safety, leading to a significant shift in how software is developed. With its adoption even in critical areas like the Linux kernel and support from entities like the US government for safer programming languages, it's clear that Rust is making waves. However, while the hype surrounding Rust is palpable, it might have addressed the wrong or less fundamental problem.
 
 ## The Hype vs. Reality of Rust
 
@@ -73,7 +73,6 @@ For example, consider implementing a doubly linked list in Rust. Each node can o
 
 ### Conclusion
 
-In summary, while Rust offers remarkable performance and safety features through its unique ownership model, it also presents challenges that may deter some developers. The complexity introduced by its strict rules can hinder productivity and creativity in coding.
+In summary, while Rust offers remarkable performance and safety features through its unique ownership model, it might have gone the wrong direction i.e. **Reference semantics**.
 
-If Rust ever integrates a garbage collector while maintaining its performance characteristics, it would likely become a more universally recommended language among developers seeking both safety and ease of use. Until then, those who prefer simplicity may find themselves at odds with Rust's intricate design philosophy.
-
+If Rust ever integrates a garbage collector or completely avoid reference semantics while maintaining its performance characteristics, it would likely become a more universally recommended language among developers seeking both safety and ease of use. Until then, those who prefer simplicity may find themselves at odds with Rust's intricate design philosophy.
