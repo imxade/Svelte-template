@@ -37,8 +37,8 @@ export const projects: ProjectType[] = [
 			'A simple gallery that can classify images and videos based on their their content.',
 		href: 'https://github.com/imxade/pictopyv2/wiki',
 		source: 'https://github.com/imxade/pictopyv2',
-		image: '/project/sketchClassifier.png',
-		techstack: ['Fastify', 'NodeJS', 'JavaScript', 'Docker'],
+		image: '/project/pictopy.png',
+		techstack: ['Flask', 'SQLite', 'Docker'],
 		featured: true
 	},
 	{
@@ -48,7 +48,7 @@ export const projects: ProjectType[] = [
 		href: 'https://classifysketch.vercel.app',
 		source: 'https://codeberg.org/zz/classifySketch',
 		image: '/project/sketchClassifier.png',
-		techstack: ['Flask', 'SQLite', 'Docker'],
+		techstack: ['Fastify', 'NodeJS', 'JavaScript', 'Docker'],
 		featured: true
 	},
 	{
