@@ -33,7 +33,7 @@
 			<h1 class="font-bold md:text-xl">Hi, I'm</h1>
 			<h1 class="text-2xl font-bold md:text-5xl">{siteOwner}</h1>
 			<p>
-                                Someone who enjoys simplifying and organizing, while building resilient abstractions. Wishing to witness technological advancements to the fullest and willing to pave the way for a more fulfilling existence by automating every task that doesn't require human-level intellect.
+                                Someone who enjoys simplifying and organizing, while building resilient abstractions. Wishing to witness technology to the fullest and urging to pave the way for a more fulfilling existence by automating every task that can be.
 			</p>
 			<SocialButtons />
 		</div>
