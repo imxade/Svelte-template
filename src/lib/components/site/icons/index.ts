@@ -1,6 +1,7 @@
 export { default as Moon } from './moon.svelte';
 export { default as X } from './X.svelte';
 export { default as CodeBerg } from './codeberg.svelte';
+export { default as Orcid } from './orcid.svelte';
 export { default as LinkedIn } from './linkedin.svelte';
 export { default as Svelte } from './svelte.svelte';
 export { default as Streamlit } from './streamlit.svelte';
@@ -9,4 +10,3 @@ export { default as Tailwind } from './tailwind.svelte';
 export { default as Drizzle } from './drizzle.svelte';
 export { default as Planet } from './planet.svelte';
 export { default as SQL } from './sql.svelte';
-export { default as Orcid } from './orcid.svelte';
