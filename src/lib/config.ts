@@ -1,4 +1,4 @@
-import { ORCID, LinkedIn, X, CodeBerg } from '$lib/components/site/icons';
+import { Orcid, X, CodeBerg } from '$lib/components/site/icons';
 import { Github, Mail } from 'lucide-svelte';
 
 type routesType = {
@@ -66,7 +66,7 @@ export const socials: socialsType[] = [
 	*/
 	{
 		href: 'https://orcid.org/0009-0002-7347-7064',
-		icon: ORCID,
+		icon: Orcid,
 		display: 'ORCID'
 	},
 	{
