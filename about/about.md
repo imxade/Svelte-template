@@ -14,8 +14,7 @@ I'm **Rituraj**, technology is my dopamine, and freedom is everything to me, hen
 
 I’m also rooting for RISC-V (Open Architecture).
 
-I blog occasionally and have a keen interest in alot of research fields.
-Lambda Calculus, automated proofs and parallelism, Game engines and quantum mechanics are al fascinating to me.
+I blog occasionally and have a keen interest in a lot of research fields. Lambda calculus, automated proofs and parallelism, game engines, and quantum mechanics are all fascinating to me.
 
 I believe cross-platform is both the present and the future. Technologies like WebAssembly, WebGPU, WebXR, and WebTransport excite me as they shape the future of the web.
 
