@@ -1,1 +1,31 @@
-<svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467 4.416 16.553a12 12 0 0 0 5.137-4.213z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Codeberg" role="img" viewBox="0 0 512 512" width="22px" height="22px" fill="#000000">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<rect width="512" height="512" rx="15%" fill="#ffffff"/>
+
+<defs>
+
+<linearGradient id="A" x1="259.804" x2="383.132" y1="161.4" y2="407.835" gradientUnits="userSpaceOnUse">
+
+<stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+
+<stop offset=".5" stop-color="#666666"/>
+
+<stop offset="1" stop-color="#666666"/>
+
+</linearGradient>
+
+</defs>
+
+<path fill="url(#A)" d="M259.804 161.4c-.44 0-1.1 0-1.32.44l-.44 1.1L332.04 440.21a192.039 192.039 0 0 0 86.77-74.437L261.125 162.06a1.762 1.762 0 0 0-1.321-.661z" opacity=".5" paint-order="stroke markers fill"/>
+
+<path fill="#000000" d="M255.3 71.8a192 192 0 0 0-162 294l160.1-207c.5-.6 1.5-1 2.6-1s2 .4 2.6 1l160 207a192 192 0 0 0 29.4-102c0-106-86-192-192-192a192 192 0 0 0-.7 0z" paint-order="stroke markers fill"/>
+
+</g>
+
+</svg>
