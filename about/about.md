@@ -18,7 +18,7 @@ I want to push parallel computing forward to cover general-purpose computing, ch
 
 Lambda calculus, automated proofs and parallelism, game engines, and quantum mechanics all fascinate me.
 
-I always wanted to bring on a future where jobs are not a necessity for survival but a choice—where people pursue what truly interests them, and their contributions define their status. Artificial Intelligence can help?
+I always wanted to bring on a future where jobs are not a necessity for survival but a choice, where people pursue what truly drives them, and their contributions define their status. Artificial Intelligence can help?
 
 Thanks for the visit!
 
