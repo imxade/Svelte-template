@@ -1,7 +1,7 @@
 ---
 title: Is Rust Worth the Hype?
 description: Some thoughts on why rust might not be your thing.
-date: '2024-11-19'
+date: '2024-10-25'
 tags:
   - Language
   - Rust
