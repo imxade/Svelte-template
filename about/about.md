@@ -10,20 +10,15 @@ layout: about
 ## About Me 👨‍💻
 
 Hello <span class="wave">👋</span>  
-I'm **Rituraj**, technology is my dopamine, and freedom is everything to me, hence, I advocate for open-source. I like collaborating and building resilient abstractions for humans because machines don’t have preferences.
+I'm **Rituraj**, Technology is my dopamine, and freedom is everything to me. hence, I advocate for open-source. I love collaborating and building resilient abstractions for humans because machines don’t have preferences. I also blog occasionally.
 
-I’m also rooting for RISC-V (Open Architecture).
+I believe cross-platform is both the present and the future. Technologies like WebAssembly, WebGPU, WebXR, and WebTransport excite me as they shape the future of the web. I'm also rooting for RISC-V (Open Architecture).
 
-I blog occasionally and have a keen interest in alot of research fields.
-Lambda Calculus, automated proofs and parallelism, Game engines and quantum mechanics are al fascinating to me.
+I want to push parallel computing forward to cover general-purpose computing, challenging existing algorithms and operating systems to fully embrace parallel computing as if serial computing never existed. XR also excites me, especially the gaps it's starting to fill in technology and real world interaction.
 
-I believe cross-platform is both the present and the future. Technologies like WebAssembly, WebGPU, WebXR, and WebTransport excite me as they shape the future of the web.
+Lambda calculus, automated proofs and parallelism, game engines, and quantum mechanics all fascinate me.
 
-I want to push General-Purpose Graphics Processing forward, challenging existing algorithms and operating systems to fully embrace parallel computing as if serial computing never existed.
-
-I'm also excited about XR and the gaps it's starting to fill in technology and human interaction.
-
-I always wanted to bring a future where jobs are not a necessity for survival, but rather a choice where people pursue what truly interests them, and their contributions define their status. Artificial Intelligence can help achieve this by taking on mundane tasks, freeing people to focus on meaningful work.
+I always wanted to bring on a future where jobs are not a necessity for survival but a choice, where people pursue what truly drives them, and their contributions define their status. Artificial Intelligence can help?
 
 Thanks for the visit!
 
