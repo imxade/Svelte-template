@@ -9,8 +9,8 @@ layout: about
 
 ## About Me 👨‍💻
 
-Hello <span class="wave">👋</span>  
-**Rituraj** here, Tech makes those dopamine hits. Open-source has always been the way because freedom matters. The focus is always on building for humans, not just machines. Collaboration is key, and blogging pops up now and then to share thoughts.
+Hey <span class="wave">👋</span>  
+I'm **Rituraj**, and tech is the cause dopamine hits. Open-source has always been the way because freedom matters. The focus is always on building for humans, not just machines. Collaboration is key, and blogging pops up now and then to share thoughts.
 
 Having full control over the machine is a must, along with automating tons of stuff through scripts. Not just functionality, cozy looking desktop important too. So, Linux is the way. Started out with Artix but switched to NixOS early on in the decade because declarative setup feels like breeze, even with systemd in the mix.
 
