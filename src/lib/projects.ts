@@ -32,14 +32,24 @@ export const projects: ProjectType[] = [
 		featured: true
 	},
 	{
+		title: 'PySh: Shell and Python REPL Hybrid',
+		description:
+			'A lightweight, cross-platform shell and Python REPL hybrid built in pure Python, supporting pipelines, redirection, tab-completion, and interactive command evaluation without external dependencies.',
+		href: 'https://codeberg.org/zz/pysh/wiki',
+		source: 'https://codeberg.org/zz/pysh',
+		image: '/project/pysh.png',
+		techstack: ['Linux', 'Python'],
+		featured: true
+	},
+	{
 		title: 'PictoPy',
 		description:
-			'A simple gallery that can classify images and videos based on their their content.',
+			'A simpl cross-platform gallery that can classify images and videos based on their their content.',
 		href: 'https://github.com/imxade/pictopyv2/wiki',
 		source: 'https://github.com/imxade/pictopyv2',
 		image: '/project/pictopy.png',
 		techstack: ['Flask', 'SQLite', 'Docker'],
-		featured: true
+		featured: false
 	},
 	{
 		title: 'Sketch Classifier',
