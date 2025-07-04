@@ -10,19 +10,21 @@ layout: about
 ## About Me 👨‍💻
 
 Hey <span class="wave">👋</span>  
-I'm **Rituraj**, and tech is the cause dopamine hits. Open-source has always been the way because freedom matters. The focus is always on building for humans, not just machines. Collaboration is key, and blogging pops up now and then to share thoughts.
+**Rituraj** here. Tech has always been exciting, especially open-source, because transparency matters. The focus is on building for people, not just machines. Collaboration is key, and blogging shows up now and then to share thoughts and ideas.
 
-Having full control over the machine is a must, along with automating tons of stuff through scripts. Not just functionality, cozy looking desktop important too. So, Linux is the way. Started out with Artix but switched to NixOS early on in the decade because declarative setup feels like breeze, even with systemd in the mix.
+Automation, cozy looks, and full control over the system matter is a must, hence Linux is the way. It started with Artix, then shifted to NixOS, the declarative setup feels clean and efficient, even with systemd in the mix.
 
-Local-first and cross-platform? That’s where it’s at both now and down the road. Tech like WebAssembly and WebGPU are super exciting because they’re reshaping the web’s future. Also rooting hard for RISC-V.
+Local-first should define the future. WebAssembly and WebGPU are helping to make it possible, while closing the gap between native and web apps, making the web feel more capable than ever. Also cheering hard for RISC-V and the openness it brings.
 
-The vision includes pushing implicit parallel computing forward using Interaction-Calculus to handle general-purpose computing, challenging current algorithms and operating systems to fully embrace parallelism as if serial computing never existed.
+There's a strong pull toward theoretical and future-facing tech like Interaction Calculus for implicit parallel computing. The idea is to challenge current algorithms and operating systems to treat parallelism as the default, as if serial computing never existed in the first place.
 
-XR is another thrilling frontier, filling gaps between tech and real-world interaction. The fascination extends to theory of computation including Lambda calculus, automated proofs, parallelism as well as game engines and physical mechanics.
+XR is another thrilling space, blending the digital and physical worlds. It's opening up possibilities in medical fields like eye treatment and physical activites, pretty much the kind of future people imagined 50 years ago. The fascination extends to computation theory too lambda calculus, automated proofs, parallelism, game engines, and even physical mechanics.
 
-The dream? A world where jobs aren’t tied to survival. People creating and contributing because they want to, not because they have to. Maybe AI can help get there.
+The dream? A world where jobs aren’t tied to survival. 
+People creating and contributing because they want to, not because they have to.
+Maybe AI can help to some extent.
 
-Thanks for the visit!
+Thanks for dropping by!
 
 ## Technologies I've Worked With:
 
