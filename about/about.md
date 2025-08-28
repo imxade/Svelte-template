@@ -10,21 +10,23 @@ layout: about
 ## About Me 👨‍💻
 
 Hey <span class="wave">👋</span>  
-**Rituraj** here. Tech has always been exciting, especially open-source, because transparency matters. The focus is on building for people, not just machines. Collaboration is key, and blogging shows up now and then to share thoughts and ideas.
+**Rituraj** here. 
+Technology has always excited me especially open source, because transparency matters. For me, it’s about building for people, not just for machines. Collaboration plays a key role, and occassionally I share my thoughts through blogging.
 
-Don't think overhead or execution order justifies asynchronous functions not being the default.
+I believe asynchronous execution should be the default, much like how the BEAM VM (Erlang/Elixir) treats concurrency as a natural building block. I’m also keeping an eye on RISC-V and photonic chips.
 
-Cozy looks, automation and full control over the system is a must, hence Linux is my way. It started with Artix, then shifted to NixOS, the declarative setup feels clean and efficient, even with systemd in the mix.
+When it comes to operating systems, I value coziness, automation, and full control that’s why NixOS is my go to, Declarative setups feels the cleanest, cant wait for [Mobile NixOS' GSI](https://github.com/mobile-nixos/mobile-nixos/issues/818).
 
-Local-first should define the future. WebAssembly and WebGPU are helping to make it possible, while closing the gap between native and web apps. Also cheering hard for RISC-V and the openness it brings.
 
-There's a strong pull toward theoretical frameworks like Interaction Calculus for implicit parallel computing. The idea is to challenge current algorithms and operating systems to treat parallelism as the default, as if serial computing never existed in the first place.
+Keeping the bigger picture in mind might just be a habit because whenever I revisit past decisions, I usually land on the same conclusions. That’s why I’ve learned to document the reasoning behind what I build, at least when it comes to code.
 
-XR is another thrilling space, blending the digital and physical worlds. It's opening up possibilities in medical fields like eye treatment and physical activites, pretty much the kind of future people imagined 50 years ago. The fascination extends to computation theory too lambda calculus, automated proofs, parallelism, game engines, and even physical mechanics.
 
-Dreaming of a world where jobs aren’t tied to survival. 
-People creating and contributing because they want to, not because they have to.
-Maybe AI can help to some extent.
+I'm also drawn towards computation theories, like Interaction Calculus providing implicit parallel evaluation (computing). Alongside this, I also want to explore lambda calculus, automated proofs, parallelism, game engines, and even the mechanics of physical systems. I enjoy reimagining fundamentals for example, wondering what computing might look like if concepts such as serialization had never existed.
+
+Another space I find exciting is Extended Reality it blends the digital and physical worlds and could completely change the way we interact with software. It’s already unlocking possibilities in healthcare, from eye treatments to physical therapy, and feels like the kind of sci-fi future people dreamed about decades ago.
+
+Finally, I dream of a world where jobs aren’t tied to survival, 
+where people create and contribute because they want to, not because they have to. Maybe AI can help us edge closer to that vision.
 
 Thanks for dropping by!
 
