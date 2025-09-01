@@ -15,6 +15,9 @@ Technology has always excited me especially open source, because transparency ma
 
 I believe asynchronous execution should be the default, much like how the BEAM VM (Erlang/Elixir) treats concurrency as a natural building block. I’m also keeping an eye on RISC-V and photonic chips.
 
+
+Sooner or later, people will accept P2P as the way for private communication, rather than relying on servers, even if the data is encrypted.
+
 When it comes to operating systems, I value coziness, automation, and full control that’s why NixOS is my go to, Declarative setups feels the cleanest, cant wait for [Mobile NixOS' GSI](https://github.com/mobile-nixos/mobile-nixos/issues/818).
 
 
