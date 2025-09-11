@@ -31,6 +31,8 @@ Another space I find exciting is Extended Reality it blends the digital and phys
 Finally, I dream of a world where jobs aren’t tied to survival, 
 where people create and contribute because they want to, not because they have to. Maybe AI can help us edge closer to that vision.
 
+*On a personal note, I still need to learn how to cook… and someday, will walk on an empty beach.*
+
 Thanks for dropping by!
 
 ## Technologies I've Worked With:
