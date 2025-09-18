@@ -15,17 +15,19 @@
     previews = {
       web = {
         command = [
+          /*
           "docker"
           "compose"
           "up"
-         # "npm"
-         # "run"
-         # "dev"
-         # "--"
-         # "--port"
-         # "$PORT"
-         # "--host"
-         # "0.0.0.0"
+          */
+         "npm"
+         "run"
+         "dev"
+         "--"
+         "--port"
+         "$PORT"
+         "--host"
+         "0.0.0.0"
         ];
         manager = "web";
       };

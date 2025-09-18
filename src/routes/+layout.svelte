@@ -37,9 +37,9 @@
 	<div class="flex-1 mb-20 md:mb-0">
 		<slot />
 	</div>
-	<footer class="hidden border-t md:block">
+	<!-- <footer class="hidden border-t md:block">
 		<Footer />
-	</footer>
+	</footer> -->
 </div>
 <!-- no-highlight (touch highlights in mobile) -->
 <div class="no-highlight">
